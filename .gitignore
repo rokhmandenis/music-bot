@@ -1,0 +1,36 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# ======================
+# OS
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Environment / secrets
+# ======================
+.env
+.env.*
+config/.env
+config/.env.*
+
+# ======================
+# Runtime data (НЕ коммитим)
+# ======================
+data/
+covers/
+*.log
+
+# ======================
+# Generated / reports
+# ======================
+not_found.json
+enrich_report*
